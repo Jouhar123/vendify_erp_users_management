@@ -1,0 +1,12 @@
+current username and password
+"email": "JohnDoe@techcorp.net",
+"password": "password123"
+
+
+routes 
+
+POST /auth/login - User login
+GET  /users - Get all users (with pagination)
+POST /users - Create new user (CA role only)
+GET  /users/me - Get current user profile
+GET  /roles - Get all available roles
